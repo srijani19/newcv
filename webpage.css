@@ -1,0 +1,397 @@
+
+
+
+body
+{
+   background-color: rgb(254, 255, 255);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+#myicon:hover
+{
+    background-color: #7f888b;
+
+}
+
+#hobbies
+{
+  margin-bottom:40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: rgb(233, 226, 226);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar-toggler-icon
+{
+    background-color:#ffff;
+}
+.btn1:hover
+{
+    background-color: #7f888b;
+}
+.btn2:hover
+{
+    background-color: #7f888b;
+}
+.btn3:hover
+{
+    background-color: #7f888b;
+}
+.text
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    font-weight:850px;
+    text-align: justify;
+    color: rgb(4, 4, 70);
+}
+.text::first-letter
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.text:hover
+{
+    
+    color: black;
+    font-weight:bolder;
+}
+#quote
+{
+    padding-top: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+}
+#myname
+{
+    font-style: oblique;
+    font-weight:bolder;
+}
+#myname:hover
+{
+    color:crimson;
+}
+
+#education
+{
+    background-color: #1e272b;
+    transition: all 0.3s ease-in-out;
+}
+
+#skills
+{
+    background-color:  #1e272b;
+    opacity: 1;
+    
+}
+
+.math
+{
+    display: block;
+    height: 475px;
+    width: 620px;
+    padding-top: 108px;
+    
+
+}
+#second{
+font-family: "Quarto A", "Quarto B", Georgia, Times, "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", serif;
+    line-height: 1.125;
+    padding:3% 10% 2% 10%;
+}
+.study_text
+{
+    
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.study_text::first-letter
+{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.middle_container
+{
+    padding:3% 10% 2% 10%;
+    line-height: 2;
+}
+.bottom_container
+{
+    padding:3% 10% 2% 10%;
+    line-height: 2;
+    font-size: large;
+}
+.payment
+{   text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+img
+{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.5);
+}
+/* img:hover {
+    box-shadow: 0 0 4px 4px rgba(3, 42, 54, 0.5);
+  } */
+
+#myDIV
+{
+    text-decoration: double;
+
+}
+.footer
+{
+    /* position: fixed;
+    background-color:#484d53;
+    text-align: center;
+    padding:15px 15px 50px 15px;
+    color: aliceblue;
+    font-size: 1rem;
+    bottom: 0; */
+
+    position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 70px;
+   background-color:#484d53;
+   color: white;
+   text-align: center;
+   
+}
+/* .footer2
+{
+    
+    background-color:#484d53;
+    text-align: center;
+    padding:15px 15px 50px 15px;
+    color: aliceblue;
+    font-size: 1rem;
+    
+
+    
+    
+} */
+figcaption {
+    
+    color: rgb(97, 33, 33);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+.about
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.about a
+{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+.about-1
+{
+    text-align: center;
+    padding-left: 20px;
+}
+
+/* .about a:hover
+{   color:white;
+    text-decoration: underline rgb(255, 255, 255);
+} */
+
+.icon 
+{
+    margin-left: 7px;
+    
+}
+
+.login
+{
+    padding-left: 40px;
+}
+
+.writing
+{
+    
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;   
+
+}
+
+.writing::first-letter
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.why
+{
+    font-family: "Quarto A", "Quarto B", Georgia, Times, "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border: thick double #83a1ad;
+    text-align: justify;
+    background-color: rgb(196, 194, 194);
+}
+
+.q::first-letter
+{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.not
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
+}
+
+.mom
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+/* media queries */
+ @media screen and (max-width:380px)
+ {
+     .math
+     {
+         width:300px;
+     }
+     .phone
+     {
+         width:300px;
+     }
+     .not 
+     {
+         width:300px;
+     }
+     #second
+     {
+         font-size:1.5rem;
+         text-align: center;
+     }
+   .study_text
+   {
+       text-align: center;
+   }
+   .writing
+   {
+        border: thick double #83a1ad;
+        text-align: justify;
+        text-align: center;
+   }
+   
+ }
+ @media (min-width:390px) and (max-width:430px)
+ {
+     .math
+     {
+         width:400px;
+     }
+     .phone
+     {
+        width:400px; 
+     }
+     .not
+     {
+         width:350px;
+     }
+     #second
+     {
+         font-size:1.5rem;
+         text-align: center;
+     }
+     .study_text
+   {
+       text-align: center;
+   }
+   .writing
+   {
+       text-align: center;
+   }
+ }
+ @media (min-width:750px) and (max-width:1030px)
+ {
+     .math{
+         width:350px;
+     }
+     .text
+     {
+         font-size: 1;
+     }
+     .phone
+     {
+         width:300px;
+     }
+     .not
+     {
+         width:300px;
+     }
+ }
+ .pos
+ {
+     background-image: url("");
+ }
+
+.pos
+{
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+}
+
+.main {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+  }
+
+  

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Titillium+Web:wght@300&display=swap"
+        rel="stylesheet">-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="webpage.css">
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          //x.style.display = "none";
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+      }
+
+      function myFunction2() {
+        var x = document.getElementById("myDIV2");
+        //x.style.display = "none";
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+    }
+    function myFunction3() {
+        var x = document.getElementById("myDIV3");
+        //x.style.display = "none";
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+    }
+      </script>
+
+      <script> 
+        $(document).ready(function(){
+          $("#intro1").click(function(){
+            $("#hobbies").slideDown("slow");
+          });
+        });
+        </script>
+    
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" style="color:white;" href="#intro">INTRO</a>
+        <button class="navbar-toggler" type="button" style="color:white" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="color:white" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" id="intro1" style="color:white;" href="#hobbies">HOBBIES <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" style="color:white;" href="#education">EDUCATION</a>
+            <a class="nav-item nav-link" style="color:white;" href="#skills">SKILLS</a>
+          </div>
+        </div>
+      </nav>
+   <div class="container">
+    <section id="intro">
+    <div class="container-fluid first ">
+        <div class="row">
+            <div class="col-sm-6" style="margin-top:100px">
+                <figure>
+                <img  src="mypic.jpeg">
+                <figcaption style="font-family: 'Shizuru', cursive;">- KOLKATA, WEST BENGAL</figcaption>
+                <figure>
+            </div>
+            <div class="col-lg-6" style="margin-top:60px;margin-bottom:200px">
+                <h1 id="quote" class="fst-italic">"BRIEF INTRODUCTION" </h1>
+                <p class="text"style="font-family: 'Festive', cursive;" >My name is <span id="myname">SRIJANI BHATTACHARYA</span>, and I am currently pursuing engineering from St. Thomas' College of Engineering and Technology, from the ECE department.
+                     I am mentally very strong and i can deal with any kind of odd situaitons quite well and try my best not to expose my vulnerable side. This is my strength.
+                    I am very eager in learning programming languages and have learnt basics of C and Python.
+                </p>
+
+                <table>
+                    <tr>
+                      <th><a href="#" class="about-1"  onclick="myFunction()"><button class="btn1">  <i  class="fa fa-phone" style="font-size:20px;margin-right:5px;"></i>Contact </button></a></th>
+                      <th><a href="#" class="about-1"  onclick="myFunction2()"><button  class="btn2">  <i  class="fa fa-envelope" style="font-size:20px;margin-right:5px"></i>Email</button></a>
+                      </th>
+                      <th> <a href="#" class="about-1"  onclick="myFunction3()"><button  class="btn3">  <i  class="fa fa-map-marker" style="font-size:20px;margin-right:5px"></i>Location</button></a>
+                     </th>
+                      </tr>
+                    <tr>
+                    </table>
+                <p>
+               <div id="myDIV" style="display: none">
+               <h5>Contact: 7595929511</h5>
+               
+               </div>
+                </p>
+                <p>
+                    <div id="myDIV2" style="display: none">
+                      <h5>Mail: srijani19.sb@gmail.com</h5>
+                    </div>
+                     </p>
+                     
+                     <p>
+                        <div id="myDIV3" style="display: none">
+                          <h5>Location:3,KC Dutta Road,Kolkata-700061,Flat-N/1/D,Rakhi Apartment</h5>
+                        </div>
+                         </p>
+
+            </div>
+       
+        </div>
+    </section>
+    </div>
+    <!--<a href='project.html'>
+        <button type="button" class="btn btn-info" style="margin-bottom:30px">ABOUT ME</button>
+       </a>-->
+
+       
+</div>
+<section id="hobbies">
+    <div class="container-fluid bottom_container">
+        <h2 style = "color: magenta;font-family: 'Shizuru', cursive;">HOBBIES :</h2>
+        
+
+                
+                    <p style="font-style:italic"><i id="myicon" class="fa fa-arrow-right" style="font-size:20px;color:blue;;padding-left:0px;padding-right:6px"></i>Dancing</p>
+                     <p style="font-style:italic"><i id="myicon" class="fa fa-arrow-right" style="font-size:20px;color:blue;;padding-left:0px;padding-right:6px"></i>Listening To music</p>
+                     <p style="font-style:italic"><i id="myicon" class="fa fa-arrow-right" style="font-size:20px;color:blue;;padding-left:0px;padding-right:6px"></i>Website Designing</p>
+                    
+                
+        
+            
+    
+    </div>
+</section>
+
+   
+    <!--<div class="container" >-->
+        <section id="education">
+        <div class="container-fluid bottom_container">
+            <h2 style = "color: aqua;font-family: 'Permanent Marker', cursive;">EDUCATION :</h2>
+            <div class="why" style="margin-top:30px">
+                <ul>
+                    <li class="q" style="font-family: 'Satisfy', cursive;">
+                        Madhyamik Examination
+                        <ul>
+                            <li><p><mark style="background: #e4edf9;">2004-2016</p></mark></li>
+                             <li><p style="font-style:italic">South Point High School</p></li>
+                            
+                        </ul>
+                        
+                    </li >
+                    
+                    <li class="q" style="font-family: 'Satisfy', cursive;">
+                        All India Senior School Certificate Examination.
+                        <ul>
+                            <li><p><mark style="background: #e4edf9;">2016-2018</mark></p></li>
+                             <li><p style="font-style:italic">South Point High School</p></li>
+                            
+                        </ul>
+                        
+                    </li>
+        
+                    <li class="q" style="font-family: 'Satisfy', cursive;">
+                        BTech in Electronics and Communication Engineering
+                        <ul>
+                            <li><p><mark style="background: #e4edf9;">2019-2023</p></mark></li>
+                             <li><p style="font-style:italic">St. Thomas' College of Engineering and Technology</p></li>
+                            
+                        </ul>
+                        
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            
+                
+        
+        </div>
+    </section>
+    <section id="skills" style="margin-top:70px;margin-bottom:150px">
+        <div class="container-fluid bottom_container">
+            <h2 style = "color: aqua;font-family: 'Permanent Marker', cursive;"> SKILLS AND PROJECTS :</h2>
+            <div class="why" style="margin-top:50px">
+                <ul>
+                    <li class="q" style="font-family: 'Satisfy', cursive;">
+                        <i class="fa-solid fa-diagram-project" style='font-size:24px'></i> Dance Website
+                        <ul>
+                            <li>
+                                <a href="https://mathswebsite.herokuapp.com/">CLICK HERE TO VISIT MY WEBSITE</a></li>
+                             
+                            
+                        </ul>
+                        
+                    </li >
+                    
+                    <li class="q" style="font-family: 'Satisfy', cursive;">
+                        Web Development
+                        <ul>
+                            <li><p style="font-style:italic">HTML</p></li>
+                            <li><p style="font-style:italic">CSS</p></li>
+                            <li><p style="font-style:italic">JAVASCRIPT</p></li>
+                            <li><p style="font-style:italic">FLASK</p></li>
+                            <li><p style="font-style:italic">BOOTSTRAP</p></li>                             
+                            
+                        </ul>
+                        
+                    </li>
+        
+                    <li class="q" style="font-family: 'Satisfy', cursive;">
+                        Introduction to C Programming 
+                        <p>Python : Basics and Beyond -- NullStack Technologies </p>              
+                    </li>
+                    
+                </ul>
+            </div>
+            
+                
+        
+        </div>
+        </div>
+        
+        
+            
+   </section>    
+
+
+    <div class="footer">
+        <!--<div>
+            <p>©coded and encoded 2021</p>class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content"
+        </div>-->
+
+        <div class="about">
+            
+
+            <a href="https://www.linkedin.com/in/srijani-bhattacharya-9435821a2/" ><i id="myicon" class="fa fa-linkedin" style="font-size:20px;color:white;;padding-left:0px;padding-right:0px"></i></a>
+            <a href="https://www.linkedin.com/in/srijani-bhattacharya-9435821a2/" ><i id="myicon" class="fa fa-facebook" style="font-size:20px;color:white;padding-left:0px;padding-right:0px"></i></a>
+            <a href="https://www.linkedin.com/in/srijani-bhattacharya-9435821a2/" ><i id="myicon" class="fa fa-instagram" style="font-size:20px;color:white;padding-left:0px;padding-right:0px"></i></a>
+            <a href="https://www.linkedin.com/in/srijani-bhattacharya-9435821a2/" ><i id="myicon" class="fa fa-twitter" style="font-size:20px;color:white;padding-left:0px;padding-right:0px"></i></a>
+            
+            <a href="https://github.com/srijani19"><i style="font-size:20px;color:white;padding-left:0px;padding-right:0px" class="fa fa-github"></i></a>
+
+            <!--<a href="project.html" style="color:red">AboutME</a>-->
+        </div>
+
+    </div>
+
+    
+
+
+
+</body>
+
+</html>
